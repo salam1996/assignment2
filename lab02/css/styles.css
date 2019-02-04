@@ -1,0 +1,55 @@
+.is-current {
+	background-color: black;
+	color: white;
+}
+
+.container
+{ margin: 0 auto;
+width: 90%;
+max-width: 960px;
+display: grid;
+grid-template-columns: 280px 1fr 200px; }
+
+
+header {
+	grid-column: 1/2 ;
+}
+
+header a {
+	display: block;
+	position: relative;
+}
+
+header h1 {
+	transform: rotate(-90deg);
+	position: absolute;
+	z-index: 100;
+	top: 100px;
+	left: -155px;
+}
+
+main {grid-column: 1/4;}
+
+footer{ grid-column: 1/2
+ }
+
+aside {grid-column: 2/4;
+align-self: end; }
+
+nav {grid-column: 2/4;}
+
+nav ul { display: flex;
+justify-content: flex-end;
+}
+
+nav li { margin-left: 20px ; }
+
+header {font-family: 'Staatliches', cursive;}
+
+aside {font-family: 'Baloo Thambi', cursive;}
+
+main {font-family: 'Nunito', sans-serif;}
+
+footer {font-family: 'Nunito', sans-serif;}
+
+
