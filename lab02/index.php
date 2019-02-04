@@ -5,7 +5,7 @@
 	<link rel="stylesheet" href="css/styles.css">
 	<link href="https://fonts.googleapis.com/css?family=Baloo+Thambi|Nunito|Staatliches" rel="stylesheet">
 </head>
-<body>
+<body class="container">
 <h1>Home</h1>
 
 <h2>Shafieul Alam</h2>
