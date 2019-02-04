@@ -52,20 +52,4 @@ main {font-family: 'Nunito', sans-serif;}
 
 footer {font-family: 'Nunito', sans-serif;}
 
-h2 {
-   font-style: normal;
-   font weight: 800;
-   border style: outset;
-   border width: thick;
-   color: #696969;
-}
 
-.div {
-   text-align: center;
-   max-width: 800px;
-   font-size: 16px;
-   line-height: 1.5em
-   color: black;
-}
-	
-	
